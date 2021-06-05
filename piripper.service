@@ -1,0 +1,8 @@
+[Unit]
+Description=PiRipper
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /home/pi/piripper/piripper.py
+
+[Install]
+WantedBy=multi-user.target
